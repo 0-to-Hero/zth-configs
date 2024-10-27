@@ -11,7 +11,6 @@ spring:
     port: 9042
     username: cassandra_user
     password: cassandra_password
-    keyspace-name: order_scheema
     local-datacenter: datacenter1
     schema-action: CREATE_IF_NOT_EXISTS
       
