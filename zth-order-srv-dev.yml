@@ -13,4 +13,5 @@ spring:
     password: cassandra_password
     local-datacenter: datacenter1
     schema-action: CREATE_IF_NOT_EXISTS
+    keyspace-name: order_ksp
       
