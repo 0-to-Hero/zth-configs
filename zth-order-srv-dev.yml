@@ -13,4 +13,3 @@ spring:
       port: 9042
       username: cassandra_user
       password: cassandra_password
-      local-datacenter: datacenter1
