@@ -1,0 +1,15 @@
+server:
+  port: 8006
+spring:
+  application:
+    name: zth-order-srv
+  banner:
+    location: classpath:banner.txt
+  zipkin:
+    baseUrl: http://localhost:9411
+  data:
+    cassandra:
+      contact-points: localhost
+      port: 9042
+      username: cassandra_user
+      password: cassandra_password
